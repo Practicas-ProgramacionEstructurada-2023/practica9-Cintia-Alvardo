@@ -33,10 +33,10 @@ namespace MyApp// Note: actual namespace depends on the project name.
                             Console.WriteLine("\nIngrese dos números decimles para multiplicar:");
 
                             Console.Write("\nNúmero 1: ");
-                            int num1double = Convert.ToInt32(Console.ReadLine());
+                            double num1double = Convert.ToInt32(Console.ReadLine());
 
                             Console.Write("\nNúmero 2: ");
-                            int num2double = Convert.ToInt32(Console.ReadLine());
+                            double num2double = Convert.ToInt32(Console.ReadLine());
 
                             Console.WriteLine("\nResultado de la multiplicación (Decimal): " + Multiplicar(num1double, num2double));
                             break;
