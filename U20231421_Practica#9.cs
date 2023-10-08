@@ -118,7 +118,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
         static string ConcatenarCadenas(string? cadena1, string? cadena2 , string? cadena3, string? separador1)
         {
-            return cadena3 + separador1 + separador1 + cadena3;
+            return cadena1 + separador1 + cadena2 + separador1 + cadena3;
         }
     }
 }
